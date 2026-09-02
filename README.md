@@ -93,12 +93,6 @@ mapping:
 | **Onboard Mini PC** | Ubuntu 22.04 x86\_64 — FAST-LIO2 needs ≥ 8 GB RAM |
 | Network | Ethernet between the Mid-360 (`,114`) and the PC (`.50`) on the `192.168.1` subnet |
 
-## System Architecture
-
-**Software Configuration** [![Software Configuration](https://github.com/alfinjunaedy/megarover-v3-fastlio2/raw/main/imgs/mobilerobot.jpg)](https://github.com/alfinjunaedy/megarover-v3-fastlio2/blob/main/imgs/mobilerobot.jpg)
-
-**FAST-LIO2 map** [![FAST-LIO2 map](https://github.com/alfinjunaedy/megarover-v3-fastlio2/raw/main/imgs/trajectory.jpg)](https://github.com/alfinjunaedy/megarover-v3-fastlio2/blob/main/imgs/trajectory.jpg)
-
 ## Workspace Layout
 
 The project is spread across three workspaces (each has its own build/lifecycle):
