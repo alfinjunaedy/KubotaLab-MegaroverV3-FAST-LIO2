@@ -33,7 +33,6 @@ camera. The only difference on the controller side is the pose topic:
 - [Overview](#overview)
 - [Features](#features)
 - [Hardware](#hardware)
-- [System Architecture](#system-architecture)
 - [Workspace Layout](#workspace-layout)
 - [Repository Contents](#repository-contents)
 - [Prerequisites](#prerequisites)
