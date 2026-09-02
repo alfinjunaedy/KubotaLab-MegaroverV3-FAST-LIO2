@@ -26,6 +26,7 @@ camera. The only difference on the controller side is the pose topic:
 | --- | --- |
 | [![robot](https://github.com/alfinjunaedy/megarover-v3-fastlio2/raw/main/imgs/mobilerobot.gif)](https://github.com/alfinjunaedy/megarover-v3-fastlio2/blob/main/imgs/mobilerobot.gif) | [![trajectory](https://github.com/alfinjunaedy/megarover-v3-fastlio2/raw/main/imgs/trajectory.jpg)](https://github.com/alfinjunaedy/megarover-v3-fastlio2/blob/main/imgs/trajectory.jpg) |
 
+Accuracy: ±0.050~0.150 m
 * * *
 
 ## Table of Contents
