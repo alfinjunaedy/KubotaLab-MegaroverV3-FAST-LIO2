@@ -446,22 +446,17 @@ topics/RViz.
 
 | Command | Arguments | Action |
 | --- | --- | --- |
-| `move_forward(dist, speed)` | `dist` \[m\], `speed` \[m/s\] | Drive straight forward |
-| `move_backward(dist, speed)` | `dist` \[m\], `speed` \[m/s\] | Drive straight backward |
-| `rotate_cw(deg, speed)` | `deg` \[°\], `speed` \[°/s\] | Rotate clockwise (turn right) in place |
-| `rotate_ccw(deg, speed)` | `deg` \[°\], `speed` \[°/s\] | Rotate counter-clockwise (turn left) in place |
+| `go_to_pose(x, y, yaw, speed)` | `fwd-bck` \[m\], `lft-rgt` \[m\], `heading` \[rad\], `speed` \[m/s\] | Drive to a global pose |
 | `delay_seconds(s)` | `s` \[s\] | Pause between motions |
 
 ### Example — a surveyed path
 
 ```
 // Planner *****************************************************
-move_forward(1, 0.2);
+go_to_pose(1.0, 0, 0, 0.5);          # move forward 1m
 delay_seconds(2);
-rotate_cw(45);
-move_forward(1, 0.2);
+go_to_pose(1.0, 0, 1.5707, 0.5);     # rotate left CCW 90deg
 delay_seconds(2);
-rotate_ccw(45);
 // *************************************************************
 ```
 
