@@ -1,4 +1,4 @@
-# KubotaLab-MegaroverV3-FAST-LIO2
+# Megarover V3 FAST-LIO2
 
 **Indoor localization & mapping with a Vstone MegaRover V3 using FAST-LIO² (Livox Mid-360) fused with the rover's wheel odometry.**
 
